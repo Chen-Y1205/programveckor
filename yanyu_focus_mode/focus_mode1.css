@@ -1,0 +1,55 @@
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+    background-color: #F9F8EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+ 
+.btn{
+    color: #4E4E4E;
+    font-size: small;
+}
+
+.timer{
+    color: #F9F8EB;
+    font-size: x-large;
+    margin: 1rem;
+}
+
+#countdown{
+    background-color: #155E63;
+}
+
+#countdown p{
+    color: #F9F8EB;
+    font-size: large;
+}
+
+#input_timer{
+    font-size: medium;
+    color: #4E4E4E;
+}
+
+.input_h{
+    background-color:#EAE7E7 ;
+}
+
+.input_m{
+    background-color:#EAE7E7 ;
+}
+
+.input_s{
+    background-color:#EAE7E7 ;
+}
+
+.hidden{
+    display: none;
+}
