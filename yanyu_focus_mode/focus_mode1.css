@@ -15,17 +15,24 @@ body{
  
 .btn{
     color: #4E4E4E;
-    font-size: small;
+    font-size: medium;
+    position: fixed;
+    top: 20px;
+    left: 20px;
 }
 
 .timer{
     color: #F9F8EB;
-    font-size: x-large;
-    margin: 1rem;
+    font-size: xx-large;
+    margin: 3rem;
+    width: 7rem;
 }
 
 #countdown{
     background-color: #155E63;
+    padding: 20px 40px;
+    border-radius: 10px;
+    margin-bottom: 5vh;
 }
 
 #countdown p{
@@ -34,8 +41,23 @@ body{
 }
 
 #input_timer{
-    font-size: medium;
+    font-size: large;
     color: #4E4E4E;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-left: 75px;
+    display: flex;
+}
+
+#input_timer p {
+    display: inline;
+    margin-right: 20px;
+}
+
+#input_timer input {
+    width: 100px;
+    text-align: left;
+    margin-right: 5px;
 }
 
 .input_h{
@@ -50,6 +72,38 @@ body{
     background-color:#EAE7E7 ;
 }
 
+#buttons {
+    display: flex; 
+    gap: 10px;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+#pausBtn, #stoppBtn {
+    padding: 15px 30px;
+    border-radius: 5px;
+    color: #F9F8EB;
+    cursor: pointer;
+    text-align: center;
+    display: inline-block;
+    font-size: large;
+}
+
+#pausBtn{
+    background-color: #76B39D;
+    
+}
+
+#stoppBtn{
+    background-color: #EE9C9C;
+
+}
+
+#setBtn{
+    padding: 10px 20px;
+    font-size: 15px;
+}
+
 .hidden{
-    display: none;
+    display: none !important;
 }
