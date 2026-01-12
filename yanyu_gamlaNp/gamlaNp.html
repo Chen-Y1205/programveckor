@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visa Prov</title>
+    <link rel="stylesheet" href="gamlaNp.css">
+</head>
+
+<body>
+    
+    <a href="#" class="btn">Back</a>
+    
+    <a href="https://hpguiden.se/gamla-hogskoleprov" class="linkNP">Här hitta du gamla NP</a>
+
+    <h1>Dina prov</h1>
+    <div id="displayProv"></div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const displayDiv = document.getElementById("displayProv");
+
+            // Hämta alla sparade prov
+            const provLista = JSON.parse(localStorage.getItem("provLista")) || [];
+
+            if(provLista.length > 0) {
+                let html = '';
+                provLista.forEach((prov, index) => {
+                    html += `
+                        <div class="provItem">
+                            <h2>Prov ${index + 1}</h2>
+                            <hr>
+                            <p><strong>Provets titel:</strong> ${prov.titel}</p>
+                            <p><strong>Ämne:</strong> ${prov.ämne}</p>
+                            <p><strong>Kurs/Årskurs:</strong> ${prov.kurs}</p>
+                            <p><strong>Datum:</strong> ${prov.datum}</p>
+                            <p><strong>Fil:</strong> ${prov.filnamn}</p>
+                        </div>
+                    `;
+                });
+                displayDiv.innerHTML = html;
+            } else {
+                displayDiv.innerHTML = "<p>Inga prov är sparade.</p>";
+            }
+        });
+    </script>
+</body>
+</html>

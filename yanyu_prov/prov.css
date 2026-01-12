@@ -28,9 +28,12 @@ p{
 .titel{
     background-color:#6F82C1;
     padding: 30px 42px;
-    font-size: xx-large;
     margin-top: 2vh;
     border-radius: 8px;
+}
+
+h1{
+    color: #363434;
 }
 
 #provDetaljer{
