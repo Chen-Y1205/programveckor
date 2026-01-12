@@ -8,7 +8,7 @@
 </head>
 
 <body>
-    
+
     <a href="#" class="btn">Back</a>
     
     <a href="https://hpguiden.se/gamla-hogskoleprov" class="linkNP">Här hitta du gamla NP</a>
@@ -20,7 +20,6 @@
         document.addEventListener("DOMContentLoaded", function() {
             const displayDiv = document.getElementById("displayProv");
 
-            // Hämta alla sparade prov
             const provLista = JSON.parse(localStorage.getItem("provLista")) || [];
 
             if(provLista.length > 0) {
