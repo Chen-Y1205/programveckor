@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lektion 7</title>
+    <link rel="stylesheet" type="text/css" href="prov.css">
+
+</head>
+
+<body>
+    <!-- #(ska placera med länk till sidan) -->
+    <a href="#" class="btn">Back</a>
+
+    <p class="titel">Här lägg du till prov</p>
+
+    <section id="provDetaljer">
+        <form id="provForm">
+            <div class="inputDetaljer">
+                <div id="provTitel">
+                    <p>Provets titel</p>
+                    <input type="text" placeholder="Skriv provets titel här" class="input_titel">
+                </div>
+
+                <div id="otherDetails">
+                    <p>Ämne</p>
+                    <input type="text" placeholder="Skriv ämnen här" class="input_subject">
+                
+                    <p>Kurs/Årskurs</p>
+                    <input type="text" placeholder="Skriv din kurs/årskurs här" class="input_kurs">
+                    <p></p>
+                    <input type="text" placeholder="Skriv datum här" class="input_date">   
+                    <p>Ladda upp provfil</p>
+
+                    <div id="dropfile">
+                        <p>Välj fil att ladda upp</p>
+                        <input type="file" id="fileInput" multiple hidden>
+                    </div>
+                </div>
+
+                <button type="submit" class="saveBtn">Lägg till prov</button>
+
+            </div>
+        </form>
+    </section>
+
+    <script src="prov.js"></script>
+
+</body>
+</html>
