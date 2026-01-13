@@ -11,6 +11,14 @@ body {
     min-height: 100vh;
 }
 
+.btn{
+    color: #4E4E4E;
+    font-size: medium;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+}
+
 .screen {
     max-width: 400px;
     margin: 0 auto 30px;
