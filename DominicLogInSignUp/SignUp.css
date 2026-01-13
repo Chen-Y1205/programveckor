@@ -23,7 +23,7 @@ body {
 .login-box h1 {
     margin-bottom: 30px;
     font-size: 36px;
-    color: black;
+    color: #363434;
 }
 
 .login-box input[type="text"],
@@ -49,16 +49,17 @@ body {
     text-decoration: underline
 }
 
-button {
+.btn {
     width: 100%;
-    padding: 18px;
+    padding: 18px 150px;
     background-color: blue;
     border: none;
     font-size: 24px;
     color: black;
     cursor: pointer;
+    margin-left: 50px;
 }
 
-button:hover {
+.btn:hover {
     background-color: blue;
 }
