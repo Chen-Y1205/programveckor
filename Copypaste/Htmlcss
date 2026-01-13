@@ -1,0 +1,69 @@
+html<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Övningsuppgifter</title>
+    <link rel="stylesheet" href="style.css"
+</head>
+<body>
+    <!-- Screen 1: Choose Subject -->
+    <div class="screen">
+        <div class="header">Övningsuppgifter</div>
+        <div class="back-btn">Back</div>
+        <div class="question-box">
+            Välj vilken ämne du vill öva på
+            <div class="subtitle">Välj Ämne</div>
+        </div>
+    </div>
+
+    <!-- Screen 2: Choose Difficulty -->
+    <div class="screen">
+        <div class="header">Övningsuppgifter</div>
+        <div class="back-btn">Back</div>
+        <div class="difficulty-question">
+            Välj vilken svårhet:
+        </div>
+        <div class="difficulty-buttons">
+            <button class="difficulty-btn btn-latt">Lätt</button>
+            <button class="difficulty-btn btn-medel">Medel</button>
+            <button class="difficulty-btn btn-svar">Svår</button>
+            <button class="difficulty-btn btn-hard">Extremt</button>
+        </div>
+    </div>
+
+    <!-- Screen 3: Exercise Tasks -->
+    <div class="screen">
+        <div class="header">Övningsuppgifter</div>
+        <div class="back-btn">Back</div>
+        
+        <button class="main-button">Övningsuppgifter</button>
+        
+        <div class="task-container">
+            <div class="task-item">
+                <div class="task-label">Uppg.</div>
+                <textarea class="task-input" placeholder=""></textarea>
+                <button class="correct-btn">Rätta</button>
+                <div style="clear: both;"></div>
+            </div>
+            
+            <div class="task-item">
+                <div class="task-label">Uppg.</div>
+                <textarea class="task-input" placeholder=""></textarea>
+                <button class="correct-btn">Rätta</button>
+                <div style="clear: both;"></div>
+            </div>
+            
+            <div class="task-item">
+                <div class="task-label">Uppg.</div>
+                <textarea class="task-input" placeholder=""></textarea>
+                <button class="correct-btn">Rätta</button>
+                <div style="clear: both;"></div>
+            </div>
+        </div>
+    </div>
+
+    <button class="fab"></button>
+    <div class="focus-mode">Focus mode</div>
+</body>
+</html>
