@@ -23,9 +23,17 @@ body{
 }
 
 
+.linkHP {
+    position: absolute;
+    top: 60px;
+    color: #4E4E4E;
+}
+
+
 .linkNP{
     margin-bottom: 20px;
     margin-top: -150px;
+    color: #4E4E4E;
 }
 
 h1{
