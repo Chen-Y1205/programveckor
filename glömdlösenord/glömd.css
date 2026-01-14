@@ -1,0 +1,80 @@
+body {
+    background-color: #faf9f0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    position: relative; /* Krävs för att back-link ska kunna ligga längst ut */
+}
+
+/* Back-länken längst ut till vänster */
+.back-link {
+    position: absolute;
+    top: 20px;
+    left: 20px; /* Ändra till 0 om du vill ha den absolut mot kanten */
+    text-decoration: none;
+    color: #555;
+    font-size: 1.8rem;
+    font-weight: normal;
+}
+
+/* Gör boxen bredare (max-width: 800px) */
+.container {
+    width: 90%;
+    max-width: 800px; 
+    display: flex;
+    justify-content: center;
+}
+
+.login-box {
+    background-color: #d3d3d3;
+    padding: 50px;
+    border-radius: 8px;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+h2 {
+    text-align: left;
+    margin-top: 0;
+    font-weight: normal;
+    color: #444;
+    font-size: 2.2rem;
+}
+
+input[type="email"] {
+    width: 100%;
+    padding: 18px;
+    margin: 25px 0;
+    border: none;
+    box-sizing: border-box;
+    font-size: 1.3rem;
+}
+
+/* Den blå knappen */
+.btn {
+    display: block;
+    width: 100%;
+    padding: 18px 0;
+    background-color: #638cff;
+    color: #333;
+    text-decoration: none;
+    font-size: 1.6rem;
+    border-radius: 4px;
+    box-sizing: border-box;
+    transition: opacity 0.2s;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+.footer-text {
+    font-size: 1rem;
+    color: #333;
+    line-height: 1.4;
+    margin-top: 20px;
+}
