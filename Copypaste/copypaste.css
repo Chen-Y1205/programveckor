@@ -35,12 +35,6 @@ body {
     margin-bottom: 15px;
 }
 
-.back-btn {
-    color: #333;
-    font-size: 16px;
-    margin-bottom: 20px;
-    cursor: pointer;
-}
 
 .question-box {
     background: #d4d4e2;
@@ -53,10 +47,18 @@ body {
 }
 
 .subtitle {
-    color: #c9b8a8;
+    padding: 5px;
+    background-color:#d4d4e2;
+    border: none;
+    color:#4E4E4E;
     font-size: 14px;
     margin-top: 8px;
 }
+
+input::placeholder {
+  text-align: center;
+}
+
 
 .difficulty-question {
     background: #c9c9d4;
@@ -78,7 +80,7 @@ body {
 .difficulty-btn {
     flex: 1;
     padding: 10px;
-    border: none;
+    border: 2px solid transparent;
     border-radius: 6px;
     font-size: 14px;
     font-weight: 500;
@@ -86,8 +88,8 @@ body {
     transition: transform 0.1s;
 }
 
-.difficulty-btn:active {
-    transform: scale(0.95);
+.difficulty-btn.active {
+    border-color: #007bff;
 }
 
 .btn-latt {
@@ -178,17 +180,4 @@ body {
     transform: translateX(-50%);
     color: #c9b8a8;
     font-size: 14px;
-}
-
-.fab {
-    position: fixed;
-    bottom: 80px;
-    right: 30px;
-    width: 56px;
-    height: 56px;
-    background: #d4d4e2;
-    border-radius: 50%;
-    border: none;
-    cursor: pointer;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
 }
