@@ -1,9 +1,11 @@
+Starta med login.html i mappen logga in
+
 # programveckor
 Ett innovativt verktyg för lyckade studieresultat som stöttar användaren på resan mot gymnasieexamen.
 readme.MD
 
 # Namn på projektet
-Yanyu Yang, Eren Ayhan, David Domert, Dominic Faber
+Yanyu Yang, Eren Ayhan, David Domert, Dominic Faber, Abdullahi Abdullahi
 ### Tävlar i kategori: 
 
 ## Projekt & Teknisk- beskrivning
