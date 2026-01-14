@@ -5,10 +5,13 @@
 }
 
 body {
-    background: linear-gradient(to bottom, #f5f0eb 0%, #e8dfd5 100%);
-    font-family: Arial, sans-serif;
-    padding: 20px;
-    min-height: 100vh;
+    background-color: #F9F8EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    color: #363434;
 }
 
 .header {
@@ -20,7 +23,7 @@ body {
 .welcome-box {
     background: #7b7bc4;
     color: white;
-    padding: 20px;
+    padding: 20px 80px;
     border-radius: 8px;
     text-align: center;
     font-size: 18px;
@@ -32,11 +35,9 @@ body {
     background: #d4d4e2;
     color: #333;
     border: none;
-    padding: 15px;
+    padding: 15px 100px;
     border-radius: 8px;
     font-size: 16px;
-    width: 100%;
-    max-width: 400px;
     display: block;
     margin: 0 auto 20px;
     cursor: pointer;
@@ -46,11 +47,9 @@ body {
     background: #d4d4e2;
     color: #333;
     border: none;
-    padding: 15px;
+    padding: 15px 100px;
     border-radius: 8px;
     font-size: 16px;
-    width: 100%;
-    max-width: 400px;
     display: block;
     margin: 0 auto;
     cursor: pointer;
