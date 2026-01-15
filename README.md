@@ -10,6 +10,7 @@ Deltagarna: Yanyu Yang, Eren Ayhan, David Domert, Dominic Faber, Abdullahi Abdul
 
 ### Tävlar i kategori: 
 UI/UX och webbutveckling (anpassningsbar)
+Bästa helhetslösning
 
 ## Projekt & Teknisk- beskrivning
 ExamShare är en webbaserad plattform framtagen för att hjälpa studenter att studera mer effektivt inför prov och examinationer. Projektets mål är att samla flera viktiga studiefunktioner på ett och samma ställe för att minska stress och skapa struktur i studierna.
