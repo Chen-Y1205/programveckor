@@ -38,6 +38,7 @@ Dessa komponenter är nödvändiga för att webbplatsen ska fungera korrekt men 
 
 ### Install
 För att kunna köra webbplatsen så behöver vi:
-
-
-Här skriver ni vad vi i juryn behöver göra för att kunna köra ert program / app / webbsida
+1. Ladda ner projektmappen
+2. Öppna mappen (Logga in)
+3. Start filen login.html i webbläsre (T.ex. Chrome eller Edge)
+4. Webbplatsen körs lokalt och kräver ingen extra instellation
